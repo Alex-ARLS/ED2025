@@ -1,4 +1,5 @@
 {
+  
   "source": {
     "include": ["./src"],
     "includePattern": ".js$",
@@ -11,5 +12,9 @@
     "destination": "docs/",
     "recurse": true,
     "verbose": true
-  }
+  },"scripts": {
+  "test": "jest"
 }
+
+}
+
